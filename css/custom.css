@@ -27,7 +27,6 @@ nav .nav-link:hover {
     padding-top: 2%;
     background-image: url(../images/hero-image.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #home .title  {
