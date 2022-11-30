@@ -1,0 +1,330 @@
+/*------body------*/
+body h1, h2, h3{
+    font-family: "Arvo", sans-serif;
+}
+
+/*------nav------*/
+
+.navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav .nav-link{
+    font-size: large;
+    padding-left: 2%;
+}
+
+nav .nav-link:hover {
+    color: #fff;
+}
+
+
+/*-------home------*/
+
+#home {
+    padding-bottom: 3%;
+    padding-top: 2%;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .title  {
+    padding-top: 4%;
+    margin-inline: 15%;
+}
+
+#home .title h1 {
+    font-size: 4em;
+}
+
+#home .subheading{
+   margin-top: 3%;
+   margin-left: 16%;
+   margin-right: 20%;
+   font-weight: 100;
+   font-family: "Arvo", sans-serif;
+}
+
+#home strong {
+    font-weight: 900;
+}
+
+#home .btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/*------who---------*/
+
+#who h2 {
+    color: #e74c3c;
+}
+
+hr {
+    color: #e74c3c;
+    margin-inline: 43.5%;
+    width: 13%;
+}
+
+#who .para {
+    margin-inline: 14.4%;
+}
+
+#who .para span {
+    color: #e74c3c;
+}
+
+/*------get involved------*/
+
+#get-involved h2, h3, .btn {
+    color: #e74c3c;
+}
+
+#get-involved .card {
+    border: none;
+}
+
+/*-----footer--------*/
+
+footer {
+    padding-top: 5%;
+    background-color: #e74c3c;
+}
+
+footer img {
+    width: 30%;
+    padding-bottom: 3%;
+}
+
+/*----btn top-----*/
+
+#back-to-top {
+    position: fixed;
+    top: 50%;
+    right: 1%;
+}
+
+@media only screen and (max-width: 1199px) {
+
+    /*--------home--------*/
+    #home {
+        padding-top: 5%;
+    }
+
+    #home .title {
+        font-size: 0.7em;
+    }
+
+    #home .subheading {
+        font-size: 0.89em;
+    }
+
+    #home .btn {
+        padding-top: 0.5%!important;
+        padding-bottom: 0.5%!important;
+        margin-top: 2%;
+    }
+
+    #home img {
+        width: 10%;
+        margin-bottom: 3%;
+    }
+
+    /*-----get involved------*/
+
+    #get-involved .card .btn {
+        width: 76%;
+        margin-inline: 14%;
+    }
+
+    /*---back to top--------*/
+    #back-to-top {
+        top: 95%;
+        right: 5%;
+    }
+
+    #back-to-top i {
+        font-size: 200%;
+    }
+}
+
+/*----tablette---------*/
+@media only screen and (max-width: 991px) {
+
+    /*----home----------*/
+    #home {
+        padding-top: 5%;
+    }
+
+    #home .title  {
+        padding-top: 7%;
+        font-size: 0.55em;
+    }
+
+    #home .subheading p {
+        font-size: 0.77em;
+    }
+
+    #home .btn {
+        width: 25%;
+        padding-top: 1%!important;
+        padding-bottom: 1%!important;
+        padding-inline: 0%!important;
+        margin-bottom: 3%!important;
+        margin-top: 5%;
+    }
+
+    #home .btn p {
+        font-size: 1.5em;
+    }
+
+    #home img {
+        width: 10%;
+
+    }
+
+    /*----get involved--------*/
+    #get-involved .card {
+        width: 100%;
+    }
+
+    #get-involved span {
+        margin-bottom: 2%!important;
+    }
+
+    #get-involved .card .btn {
+        width: 27%;
+        margin-inline: 36%;
+    }
+
+    /*------back-to-top-------*/
+
+    #back-to-top {
+        top: 95%;
+        right: 5%;
+    }
+
+    #back-to-top i {
+        font-size: 200%;
+    }
+}
+
+/*----mobile--------*/
+@media only screen and (max-width: 767px) {
+    
+    /*------nav--------*/
+    .navbar {
+        padding-inline: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .navbar-brand img{
+        width: 70%;
+    }
+
+    .navbar-toggler {
+        width: 10%;
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.2em;
+    }
+
+    /*------home-------*/
+
+    #home {
+        padding-top: 15%;
+    }
+
+    #home .title {
+        font-size: 0.4em;
+    }
+
+    #home .subheading {
+        font-size: 0.75em;
+        margin-inline: 1%;
+    }
+
+    #home .btn {
+        margin-top: 4%;
+        height: 2em;
+        padding-top: 0.5em!important;
+    }
+
+    #home .btn p {
+        font-size: 1em;
+    }
+
+
+    #home img {
+        width: 4em;
+    }
+
+    /*------who--------*/
+
+    #who img {
+        width: 20%;
+    }
+
+    #who h2 {
+        font-size: 1.5em;
+    }
+
+    #who .para {
+        font-size: 0.93em;
+        margin-inline: 0;
+    }
+
+    /*----get involved--------*/
+    
+    #get-involved h2 {
+        font-size: 1.5em;
+    }
+
+    #get-involved .card {
+        margin-bottom: 5%;
+        padding-inline: 1%!important;
+    }
+
+    #get-involved span {
+        width: 40%;
+        margin-inline: 30%;
+        margin-bottom: 2%!important;
+    }
+
+    #get-involved h3 {
+        font-size: 1.5em;
+    }
+
+    #get-involved p{
+        font-size: 0.7em;
+    }
+
+    #get-involved .btn {
+        width: 30%;
+        font-size: small;
+        margin-inline: 35%;
+    }
+
+    /*-----footer--------*/
+
+    footer img{
+        width: 80%;
+    }
+
+    /*----btn back top-----*/
+
+    #back-to-top {
+        top: 93%;
+        right: 5%;
+    }
+
+    #back-to-top i {
+        font-size: 170%;
+    }
+
+}
