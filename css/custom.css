@@ -231,6 +231,7 @@ footer img {
 
     .navbar-toggler-icon {
         width: 1.2em;
+        margin-inline: -29%;
     }
 
     /*------home-------*/
